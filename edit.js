@@ -1,5 +1,10 @@
-while (true) {
-    const body = document.querySelector('body');
-    const a = document.createElement('a');
-    body.appendChild(a);
-}
+console.log(`batata`)
+console.log(`batata`)
+console.log(`batata`)
+console.log(`batata`)
+console.log(`batata`)
+console.log(`batata`)
+console.log(`batata`)
+console.log(`batata`)
+console.log(`batata`)
+console.log(`batata`)
