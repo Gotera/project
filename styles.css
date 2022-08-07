@@ -24,24 +24,26 @@ body {
 
 .visor {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
     background-color: #ffff;
-    margin: 0px;
+    margin: 0.8rem;
     padding: 10px;
     width: 25rem;
     height: 4rem;
     border-radius: 10px;
 }
 
+/* .visor-upper {
+    flex-basis: auto;
+}
 .visor-lower {
-    display: flex;
-    justify-content: flex-end;
+    color: #dd1f11;
+    height: 2rem;
+    font-size: large;
     
-}
-.visor-lower p {
-    color: rgb(173, 115, 115);
-
-}
+} */
 
 .keyboard {
     display: flex;
