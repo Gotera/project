@@ -1,0 +1,35 @@
+/* 
+Utilidade: palheta de cores
+https://coolors.co/ee6055-60d394-aaf683-ffd97d-ff9b85 */
+
+body {
+    background-color: #60D394;
+}
+
+.container-calculator {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.6rem;
+    border-radius: 5px;
+    background-color: #FFD97D;
+    width: 25rem;
+    height: 30rem;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+}
+
+.visor {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #ffff;
+    color: #EE6055;
+    margin: 0px;
+    padding: 0px;
+    width: 23rem;
+    height: 4rem;
+    border-radius: 10px;
+}
