@@ -19,7 +19,7 @@ body {
     background-color: #FFD97D;
     width: 25rem;
     margin-top: 100px;
-    height: 30rem;
+    height: 35rem;
     flex-wrap: wrap;
     border: 2px solid black;
 }
@@ -36,14 +36,20 @@ body {
     align-items: flex-end;
     background-color: rgb(212, 201, 201);
     margin: 0.8rem;
-    padding: 10px;
-    width: 100vh;
+    width: 25rem;
     height: 4rem;
     border-radius: 10px;
     border: 2px solid black ;
 }
 
+.visor-upper {
+    display: flex;
+    padding-right: 0.3rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+    align-items: flex-end;
 
+}
 .visor-lower {
     color: #dd1f11;
     height: 2rem;
@@ -51,24 +57,31 @@ body {
     
 } 
 
-.keyboard {
+.Numbers {
     display: flex;
-    border-top: 2px solid black;
-    padding-left: 50px;
-    width: 40rem;
-    height: 18rem;
-    padding-top: 2rem;
-    padding-left: 1.5rem;
     flex-wrap: wrap;
-    gap: 13px;
-}
 
-.key {
-    display: flex;
-    justify-content: center;
-    font-size: 19px;
-    border-radius: 10px;
-    display: flex;
-    height: 4rem;
-    width: 80px;
+
+
+
+
+}
+.button-number {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(202, 43, 181);
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+
+
+
+
+}
+.button-number:hover {
+    background-color: black;
+    
+
+
+
 }

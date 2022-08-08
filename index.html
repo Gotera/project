@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
     <title>Calculator</title>
 </head>
 <body>
@@ -14,31 +15,40 @@
                     <div class="visor-upper">
                         <p>123123</p>
                     </div>
-                    <br>
                     <div class="visor-lower">
                         <p>321321</p>
                     </div>
                 </div>
+                    <table class="Numbers">
+                        <tr>    
+                            <td><button class="button-number">C</button></td>
+                            <td><button class="button-number">%</button></td>
+                            <td><button class="button-number">/</button></td>
+                            <td><button class="button-number">X</button></td>
+                        </tr>
+                            <td><button class="button-number">7</button></td>
+                            <td><button class="button-number">8</button></td>
+                            <td><button class="button-number">9</button></td>
+                            <td><button class="button-number">+</button></td>
+                        <tr>    
+                            <td><button class="button-number">4</button></td>
+                            <td><button class="button-number">5</button></td>
+                            <td><button class="button-number">6</button></td>
+                            <td><button class="button-number">-</button></td>
+                        </tr>
+                        <tr>    
+                            <td><button class="button-number">1</button></td>
+                            <td><button class="button-number">2</button></td>
+                            <td><button class="button-number">3</button></td>
+                            <td rowspan="2"><button class="button-number" style="height: 160px;">=</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="button-number">0</button></td>
+                            <td><button class="button-number">.</button></td>
+                            <td><button class="button-number">2²</button></td>
 
-                <div class="keyboard">
-                   <input id="key1" class="key"type="button" value="2²">
-                   <input id="key2" class="key"type="button" value="%">
-                   <input id="key3" class="key"type="button" value="/">
-                   <input id="key4" class="key"type="button" value="x">
-                   <input id="key5" class="key"type="button" value="7">
-                   <input id="key6" class="key"type="button" value="8">
-                   <input id="key7" class="key"type="button" value="9">
-                   <input id="key8" class="key"type="button" value="-">
-                   <input id="key9" class="key"type="button" value="4">
-                   <input id="key10" class="key"type="button" value="5">
-                   <input id="key11" class="key"type="button" value="6">
-                   <input id="key12" class="key"type="button" value="+">
-                   <input id="key13" class="key"type="button" value="1">
-                   <input id="key14" class="key"type="button" value="2">
-                   <input id="key15" class="key"type="button" value="3">
-                   <input id="key16" class="key"type="button" value="Enter">
-                </div>
-            
+                        </tr>
+                </table>
         </div>
     </div>
 </body>
