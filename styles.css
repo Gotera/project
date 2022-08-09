@@ -1,6 +1,12 @@
 /* 
 Utilidade: palheta de cores
 https://coolors.co/ee6055-60d394-aaf683-ffd97d-ff9b85 */
+
+@font-face {
+    font-family:"DS-DIGII";
+    src: url("DS-DIGII.TTF") format("truetype");
+}
+
 *{
 margin:0;
 padding: 0px;
@@ -8,7 +14,8 @@ padding: 0px;
 
 }
 body {
-    background-color: #60D394;
+    background: linear-gradient(to right, #183625, #0ceb70);
+
 }
 
 .container-calculator {
@@ -31,57 +38,56 @@ body {
 
 .visor {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
     background-color: rgb(212, 201, 201);
     margin: 0.8rem;
     width: 25rem;
     height: 4rem;
     border-radius: 10px;
     border: 2px solid black ;
+    font-family: DS-DIGII;
+    padding: 10px;
+
 }
 
 .visor-upper {
     display: flex;
-    padding-right: 0.3rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
     align-items: flex-end;
 
 }
 .visor-lower {
     color: #dd1f11;
-    height: 2rem;
-    font-size: 19px;
-    
-} 
+    font-size: 2.5rem;
+}
 
 .Numbers {
     display: flex;
     flex-wrap: wrap;
-
-
-
-
-
 }
-.button-number {
+
+.Numbers tr > td > button {
     width: 5rem;
     height: 5rem;
     background-color: rgb(202, 43, 181);
     cursor: pointer;
     border-radius: 3px;
     color: white;
-
-
-
-
+    cursor: pointer;
+    border: 1px solid #111;
+    outline: none;
 }
-.button-number:hover {
+
+
+
+/* .button-number:hover {
     background-color: black;
     
 
 
 
-}
+} */
