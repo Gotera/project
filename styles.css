@@ -44,12 +44,13 @@ body {
     align-items: flex-end;
     word-wrap: break-word;
     word-break: break-all;
-    background-color: rgb(212, 201, 201);
+    background-color:#CD83FF;
     margin: 0.8rem;
     width: 25rem;
     height: 4rem;
     border-radius: 10px;
     border: 2px solid black ;
+
     font-family: DS-DIGII;
     padding: 10px;
 
@@ -79,7 +80,7 @@ body {
 .Numbers tr > td > button {
     width: 5rem;
     height: 5rem;
-    background-color: rgb(202, 43, 181);
+    background-color: #ca2bb5;
     cursor: pointer;
     border-radius: 22px;
     color: white;
@@ -88,14 +89,6 @@ body {
     outline: none;
 }
 
-
-
-
-
-/* .button-number:hover {
-    background-color: black;
-    
-
-
-
-} */
+.button-number:hover {
+    background-color: #ff00dd;
+}
