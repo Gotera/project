@@ -11,8 +11,6 @@ https://coolors.co/ee6055-60d394-aaf683-ffd97d-ff9b85 */
     box-sizing: border-box;
     margin:0;
     padding: 0px;
-
-
 }
 body {
     background: linear-gradient(to right, #B84DFF, #7209B7);
@@ -23,18 +21,21 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 0.6rem;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: lightgrey;
     width: 25rem;
     margin-top: 100px;
-    height: 35rem;
+    height: 38rem;
     flex-wrap: wrap;
-    border: 2px solid black;
+    border: 2px transparent black;
+    background: radial-gradient(circle, rgba(38,38,38,1) 76%, rgba(15,15,15,1) 100%);
+    
 }
 
 .overview {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .visor {
@@ -42,14 +43,15 @@ body {
     justify-content: space-around;
     flex-direction: column;
     align-items: flex-end;
+    flex-grow: 2;
     word-wrap: break-word;
     word-break: break-all;
     background-color:#CD83FF;
     margin: 0.8rem;
     width: 25rem;
-    height: 4rem;
+    height: 6rem;
     border-radius: 10px;
-    border: 2px solid black ;
+    border: 10px solid rgb(26, 26, 26) ;
 
     font-family: DS-DIGII;
     padding: 10px;
@@ -68,6 +70,11 @@ body {
 }
 
 .Numbers {
+    border-top: 3px solid #02f081;
+    padding-top: 5px;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -75,6 +82,15 @@ body {
 .Numbers tr > td > button > .operators {
     background-color: #52B788;
     color: #52B788;
+}
+
+.Numbers tr > td > button > .operators > svg {
+    color: white;
+    background-color: white;
+}
+
+.operators:hover {
+    background-color: #ff00dd;
 }
 
 .Numbers tr > td > button {
@@ -85,10 +101,11 @@ body {
     border-radius: 22px;
     color: white;
     cursor: pointer;
-    border: 1px solid #111;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 20px #fd00d3,
+                1px 1px 40px #fd00d3;
     outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
 }
 
-.button-number:hover {
-    background-color: #ff00dd;
-}
