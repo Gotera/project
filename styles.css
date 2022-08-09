@@ -29,7 +29,9 @@ body {
     flex-wrap: wrap;
     border: 2px transparent black;
     background: radial-gradient(circle, rgba(38,38,38,1) 76%, rgba(15,15,15,1) 100%);
-    
+    border-top: 3px transparent #00e257;
+    box-shadow: 1px 1px 20px #00e257,
+                1px 1px 40px #00e257;
 }
 
 .overview {
