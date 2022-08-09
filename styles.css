@@ -8,13 +8,14 @@ https://coolors.co/ee6055-60d394-aaf683-ffd97d-ff9b85 */
 }
 
 *{
-margin:0;
-padding: 0px;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0px;
 
 
 }
 body {
-    background: linear-gradient(to right, #183625, #0ceb70);
+    background: linear-gradient(to right, #B84DFF, #7209B7);
 
 }
 
@@ -23,7 +24,7 @@ body {
     justify-content: space-around;
     padding-top: 0.6rem;
     border-radius: 5px;
-    background-color: #FFD97D;
+    background-color: lightgrey;
     width: 25rem;
     margin-top: 100px;
     height: 35rem;
@@ -70,6 +71,11 @@ body {
     flex-wrap: wrap;
 }
 
+.Numbers tr > td > button > .operators {
+    background-color: #52B788;
+    color: #52B788;
+}
+
 .Numbers tr > td > button {
     width: 5rem;
     height: 5rem;
@@ -81,6 +87,8 @@ body {
     border: 1px solid #111;
     outline: none;
 }
+
+
 
 
 
