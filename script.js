@@ -1,3 +1,39 @@
+// const numberButtons = document.querySelector(*[data-number]*)
+
+// const previousOperandTextElement = document.querySelector('*[data-previous-operand]*')
+// const currentOperandTextElement = document.querySelector('*[data-current-operand]*')
+
+// class Calculator {
+//     constructor(previousOperandTextElement, currentOperandTextElement) {
+//         this.previousOperandTextElement = previousOperandTextElement;
+//         this.currentOperandTextElement = currentOperandTextElement;
+//     }
+
+//     clear() {
+//         this.currentOperand = '';
+//         this.previousOperand = '';
+//         this.operation = undefined;
+//     }
+
+//     updateDisplay() {
+//         this.previousOperandTextElement.innerHTML = this.previousOperand;
+//         this.currentOperandTextElement.innerHTML = this.currentOperand;
+//     }
+// }
+
+// const calculator = new Calculator(
+//     previousOperandTextElement,
+//     currentOperandTextElement
+// );
+
+// allClearButton.addEventListener('click', () => {
+//     this.clear();
+// }
+// SE TU MEXER NISSO EU TE MATO :) SE TU MEXER NISSO EU TE MATO :) SE TU MEXER NISSO EU TE MATO :)
+
+
+
+
 function insert(num)
 {
     var numero = document.getElementById('resultado').innerHTML;
