@@ -123,6 +123,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
 }
+
+/* Arruma isso daqui tbm, ta bugando quando da zoom, n é por causa do width, já tentei colocar 100vh mas ainda n ta dando certo, ele abre um puta espaço */
 .footer {
     width: 100%;
     height: 6rem;
