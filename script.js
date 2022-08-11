@@ -57,7 +57,7 @@ function calcular()
     }
     else
     {
-        document.getElementById('resultado').innerHTML = "?.....";
+        document.getElementById('resultado').innerHTML = "?";
 
     }
 }
